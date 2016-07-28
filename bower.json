@@ -1,0 +1,20 @@
+{
+  "name": "riskmap-icons",
+  "main": [
+    "dist/*"
+  ],
+  "homepage": "https://github.com/themarshalsgroup/riskmap-icons",
+  "authors": [
+    "Will Viles <will@vil.es>"
+  ],
+  "description": "Iconfont for RiskMap",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "src/*"
+  ]
+}
