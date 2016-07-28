@@ -1,11 +1,12 @@
 {
   "name": "riskmap-icons",
+  "version": "1.0.0",
   "main": [
-    "dist/*.css",
-    "dist/*.eot",
-    "dist/*.html",
-    "dist/*.ttf",
-    "dist/*.woff"
+    "./dist/riskmapicons.css",
+    "./dist/riskmapicons.eot",
+    "./dist/riskmapicons.html",
+    "./dist/riskmapicons.ttf",
+    "./dist/riskmapicons.woff"
   ],
   "homepage": "https://github.com/themarshalsgroup/riskmap-icons",
   "authors": [
@@ -18,6 +19,7 @@
   "description": "Iconfont for RiskMap",
   "license": "MIT",
   "ignore": [
+    "**/.*",
     "node_modules",
     "bower_components",
     "Gruntfile.js",
