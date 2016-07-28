@@ -1,12 +1,20 @@
 {
   "name": "riskmap-icons",
   "main": [
-    "dist/*"
+    "dist/*.css",
+    "dist/*.eot",
+    "dist/*.html",
+    "dist/*.ttf",
+    "dist/*.woff"
   ],
   "homepage": "https://github.com/themarshalsgroup/riskmap-icons",
   "authors": [
     "Will Viles <will@vil.es>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/themarshalsgroup/riskmap-icons"
+  },
   "description": "Iconfont for RiskMap",
   "license": "MIT",
   "ignore": [
