@@ -18,8 +18,8 @@
 [class*=" ri-"]:before {
   font-family:"riskmapicons";
 	display:inline-block;
-	vertical-align:middle;
-	line-height:1;
+	vertical-align: baseline;
+	line-height: inherit;
 	font-weight:normal;
 	font-style:normal;
 	speak:none;
