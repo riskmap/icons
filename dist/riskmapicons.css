@@ -212,8 +212,14 @@
 
 
 
-.ri-time:before {
+.ri-tag:before {
 	content:"\f11f";
+}
+
+
+
+.ri-time:before {
+	content:"\f120";
 }
 
 
