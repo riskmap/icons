@@ -194,32 +194,38 @@
 
 
 
-.ri-settings:before {
+.ri-search:before {
 	content:"\f11c";
 }
 
 
 
-.ri-share:before {
+.ri-settings:before {
 	content:"\f11d";
 }
 
 
 
-.ri-stats:before {
+.ri-share:before {
 	content:"\f11e";
 }
 
 
 
-.ri-tag:before {
+.ri-stats:before {
 	content:"\f11f";
 }
 
 
 
-.ri-time:before {
+.ri-tag:before {
 	content:"\f120";
+}
+
+
+
+.ri-time:before {
+	content:"\f121";
 }
 
 
