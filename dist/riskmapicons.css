@@ -56,176 +56,182 @@
 
 
 
-.ri-bolt-circle:before {
+.ri-bin:before {
 	content:"\f105";
 }
 
 
 
-.ri-bolt:before {
+.ri-bolt-circle:before {
 	content:"\f106";
 }
 
 
 
-.ri-check:before {
+.ri-bolt:before {
 	content:"\f107";
 }
 
 
 
-.ri-chevron-down:before {
+.ri-check:before {
 	content:"\f108";
 }
 
 
 
-.ri-chevron-left:before {
+.ri-chevron-down:before {
 	content:"\f109";
 }
 
 
 
-.ri-chevron-right:before {
+.ri-chevron-left:before {
 	content:"\f10a";
 }
 
 
 
-.ri-chevron-up:before {
+.ri-chevron-right:before {
 	content:"\f10b";
 }
 
 
 
-.ri-close:before {
+.ri-chevron-up:before {
 	content:"\f10c";
 }
 
 
 
-.ri-countries:before {
+.ri-close:before {
 	content:"\f10d";
 }
 
 
 
-.ri-ellipsis:before {
+.ri-countries:before {
 	content:"\f10e";
 }
 
 
 
-.ri-error:before {
+.ri-ellipsis:before {
 	content:"\f10f";
 }
 
 
 
-.ri-feed:before {
+.ri-error:before {
 	content:"\f110";
 }
 
 
 
-.ri-filters:before {
+.ri-feed:before {
 	content:"\f111";
 }
 
 
 
-.ri-heatmap:before {
+.ri-filters:before {
 	content:"\f112";
 }
 
 
 
-.ri-link:before {
+.ri-heatmap:before {
 	content:"\f113";
 }
 
 
 
-.ri-logout:before {
+.ri-link:before {
 	content:"\f114";
 }
 
 
 
-.ri-map:before {
+.ri-logout:before {
 	content:"\f115";
 }
 
 
 
-.ri-menu:before {
+.ri-map:before {
 	content:"\f116";
 }
 
 
 
-.ri-notifications:before {
+.ri-menu:before {
 	content:"\f117";
 }
 
 
 
-.ri-people:before {
+.ri-notifications:before {
 	content:"\f118";
 }
 
 
 
-.ri-person:before {
+.ri-people:before {
 	content:"\f119";
 }
 
 
 
-.ri-place:before {
+.ri-person:before {
 	content:"\f11a";
 }
 
 
 
-.ri-port:before {
+.ri-place:before {
 	content:"\f11b";
 }
 
 
 
-.ri-search:before {
+.ri-port:before {
 	content:"\f11c";
 }
 
 
 
-.ri-settings:before {
+.ri-search:before {
 	content:"\f11d";
 }
 
 
 
-.ri-share:before {
+.ri-settings:before {
 	content:"\f11e";
 }
 
 
 
-.ri-stats:before {
+.ri-share:before {
 	content:"\f11f";
 }
 
 
 
-.ri-tag:before {
+.ri-stats:before {
 	content:"\f120";
 }
 
 
 
-.ri-time:before {
+.ri-tag:before {
 	content:"\f121";
+}
+
+
+
+.ri-time:before {
+	content:"\f122";
 }
 
 
