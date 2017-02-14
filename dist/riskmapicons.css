@@ -235,6 +235,12 @@
 }
 
 
+
+.ri-undo:before {
+	content:"\f123";
+}
+
+
 .ri-spin:before {
 	@include animation(ri-spin .5s infinite linear);
 	&.fast {
