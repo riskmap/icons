@@ -38,206 +38,212 @@
 
 
 
-.ri-admin:before {
+.ri-admin-bolt:before {
 	content:"\f102";
 }
 
 
 
-.ri-arrow-drop-down:before {
+.ri-admin:before {
 	content:"\f103";
 }
 
 
 
-.ri-arrow-drop-up:before {
+.ri-arrow-drop-down:before {
 	content:"\f104";
 }
 
 
 
-.ri-bin:before {
+.ri-arrow-drop-up:before {
 	content:"\f105";
 }
 
 
 
-.ri-bolt-circle:before {
+.ri-bin:before {
 	content:"\f106";
 }
 
 
 
-.ri-bolt:before {
+.ri-bolt-circle:before {
 	content:"\f107";
 }
 
 
 
-.ri-check:before {
+.ri-bolt:before {
 	content:"\f108";
 }
 
 
 
-.ri-chevron-down:before {
+.ri-check:before {
 	content:"\f109";
 }
 
 
 
-.ri-chevron-left:before {
+.ri-chevron-down:before {
 	content:"\f10a";
 }
 
 
 
-.ri-chevron-right:before {
+.ri-chevron-left:before {
 	content:"\f10b";
 }
 
 
 
-.ri-chevron-up:before {
+.ri-chevron-right:before {
 	content:"\f10c";
 }
 
 
 
-.ri-close:before {
+.ri-chevron-up:before {
 	content:"\f10d";
 }
 
 
 
-.ri-countries:before {
+.ri-close:before {
 	content:"\f10e";
 }
 
 
 
-.ri-ellipsis:before {
+.ri-countries:before {
 	content:"\f10f";
 }
 
 
 
-.ri-error:before {
+.ri-ellipsis:before {
 	content:"\f110";
 }
 
 
 
-.ri-feed:before {
+.ri-error:before {
 	content:"\f111";
 }
 
 
 
-.ri-filters:before {
+.ri-feed:before {
 	content:"\f112";
 }
 
 
 
-.ri-heatmap:before {
+.ri-filters:before {
 	content:"\f113";
 }
 
 
 
-.ri-link:before {
+.ri-heatmap:before {
 	content:"\f114";
 }
 
 
 
-.ri-logout:before {
+.ri-link:before {
 	content:"\f115";
 }
 
 
 
-.ri-map:before {
+.ri-logout:before {
 	content:"\f116";
 }
 
 
 
-.ri-menu:before {
+.ri-map:before {
 	content:"\f117";
 }
 
 
 
-.ri-notifications:before {
+.ri-menu:before {
 	content:"\f118";
 }
 
 
 
-.ri-people:before {
+.ri-notifications:before {
 	content:"\f119";
 }
 
 
 
-.ri-person:before {
+.ri-people:before {
 	content:"\f11a";
 }
 
 
 
-.ri-place:before {
+.ri-person:before {
 	content:"\f11b";
 }
 
 
 
-.ri-port:before {
+.ri-place:before {
 	content:"\f11c";
 }
 
 
 
-.ri-search:before {
+.ri-port:before {
 	content:"\f11d";
 }
 
 
 
-.ri-settings:before {
+.ri-search:before {
 	content:"\f11e";
 }
 
 
 
-.ri-share:before {
+.ri-settings:before {
 	content:"\f11f";
 }
 
 
 
-.ri-stats:before {
+.ri-share:before {
 	content:"\f120";
 }
 
 
 
-.ri-tag:before {
+.ri-stats:before {
 	content:"\f121";
 }
 
 
 
-.ri-time:before {
+.ri-tag:before {
 	content:"\f122";
 }
 
 
 
-.ri-undo:before {
+.ri-time:before {
 	content:"\f123";
+}
+
+
+
+.ri-undo:before {
+	content:"\f124";
 }
 
 
