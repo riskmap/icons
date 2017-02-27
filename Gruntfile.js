@@ -30,7 +30,9 @@ module.exports = function(grunt) {
           classPrefix: prefix + '-',
           mixinPrefix: prefix + '-',
           extraStyles: true,
-          fontSrc: pathFromStyles + iconfontName
+          fontSrc: pathFromStyles + iconfontName,
+          aliases: readAliasesFromFile(),
+          iconList: generateIconList
         },
         codepointsFile: codepointsFile
       }
@@ -60,3 +62,50 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-webfont');
 
 };
+
+function generateIconList(glyphs, aliases, classPrefix, codepoints) {
+  var str = ``;
+
+  for (var i = 0; i < glyphs.length; i++) {
+    var glyph = glyphs[i],
+        alias = aliases[glyph];
+
+    str += `.${classPrefix}${glyph}:before`;
+
+    if (alias) {
+      alias.forEach(function(glyphAlias) {
+        str += `,
+.${classPrefix}${glyphAlias}:before`;
+      });
+    }
+
+    str += ` {
+  content: "\\${codepoints[i]}"
+}
+
+`;
+
+  }
+
+  return str;
+}
+
+function readCodepointsFromFile(codepointsFile) {
+  if (!fs.existsSync(codepointsFile)){
+    console.log('Codepoints file not found');
+    return {};
+  }
+
+  var buffer = fs.readFileSync(codepointsFile);
+  return JSON.parse(buffer.toString());
+}
+
+function readAliasesFromFile() {
+  if (!fs.existsSync('./src/aliases.js')){
+    console.log('Aliases file not found');
+    return {};
+  }
+
+  var buffer = fs.readFileSync('./src/aliases.js');
+  return JSON.parse(buffer.toString());
+}
