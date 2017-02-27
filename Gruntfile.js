@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 module.exports = function(grunt) {
 
   // Setup paths
@@ -12,7 +14,8 @@ module.exports = function(grunt) {
 
   var iconfontName = 'riskmapicons',
       prefix = 'ri',
-      pathFromStyles = './';
+      pathFromStyles = './',
+      codepointsFile = './src/map.js';
 
   config.webfont = {
     icons: {
@@ -28,7 +31,8 @@ module.exports = function(grunt) {
           mixinPrefix: prefix + '-',
           extraStyles: true,
           fontSrc: pathFromStyles + iconfontName
-        }
+        },
+        codepointsFile: codepointsFile
       }
     }
   };
