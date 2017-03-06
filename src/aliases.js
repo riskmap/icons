@@ -4,5 +4,6 @@
   "debug": ["bug"],
   "people": ["users"],
   "person": ["user"],
-  "time": ["clock"]
+  "time": ["clock"],
+  "warning": ["report"]
 }

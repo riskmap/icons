@@ -35,5 +35,13 @@
     "stats": 61730,
     "tag": 61731,
     "time": 61732,
-    "undo": 61733
+    "undo": 61733,
+    "facebook": 61734,
+    "google-plus": 61735,
+    "instagram": 61736,
+    "linkedin": 61737,
+    "mail": 61738,
+    "twitter": 61739,
+    "warning": 61740,
+    "youtube": 61741
 }

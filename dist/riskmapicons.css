@@ -105,6 +105,10 @@
   content: "\f112"
 }
 
+.ri-facebook:before {
+  content: "\f126"
+}
+
 .ri-feed:before {
   content: "\f113"
 }
@@ -113,16 +117,32 @@
   content: "\f114"
 }
 
+.ri-google-plus:before {
+  content: "\f127"
+}
+
 .ri-heatmap:before {
   content: "\f115"
+}
+
+.ri-instagram:before {
+  content: "\f128"
 }
 
 .ri-link:before {
   content: "\f116"
 }
 
+.ri-linkedin:before {
+  content: "\f129"
+}
+
 .ri-logout:before {
   content: "\f117"
+}
+
+.ri-mail:before {
+  content: "\f12a"
 }
 
 .ri-map:before {
@@ -180,8 +200,21 @@
   content: "\f124"
 }
 
+.ri-twitter:before {
+  content: "\f12b"
+}
+
 .ri-undo:before {
   content: "\f125"
+}
+
+.ri-warning:before,
+.ri-report:before {
+  content: "\f12c"
+}
+
+.ri-youtube:before {
+  content: "\f12d"
 }
 
 
