@@ -1,7 +1,7 @@
 {
   "name": "riskmap-icons",
-  "private": true,
-  "version": "1.0.0",
+  "private": false,
+  "version": "1.0.1",
   "description": "Iconfont for RiskMap",
   "license": "MIT",
   "homepage": "http://riskmap.com",
