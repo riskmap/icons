@@ -43,5 +43,9 @@
     "mail": 61738,
     "twitter": 61739,
     "warning": 61740,
-    "youtube": 61741
+    "youtube": 61741,
+    "flip-down": 61742,
+    "flip-left": 61743,
+    "flip-right": 61744,
+    "flip-up": 61745
 }

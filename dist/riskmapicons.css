@@ -117,6 +117,22 @@
   content: "\f114"
 }
 
+.ri-flip-down:before {
+  content: "\f12e"
+}
+
+.ri-flip-left:before {
+  content: "\f12f"
+}
+
+.ri-flip-right:before {
+  content: "\f130"
+}
+
+.ri-flip-up:before {
+  content: "\f131"
+}
+
 .ri-google-plus:before {
   content: "\f127"
 }
