@@ -133,6 +133,11 @@
   content: "\f131"
 }
 
+.ri-geolocate:before,
+.ri-my-location:before {
+  content: "\f132"
+}
+
 .ri-google-plus:before {
   content: "\f127"
 }

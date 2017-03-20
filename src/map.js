@@ -47,5 +47,6 @@
     "flip-down": 61742,
     "flip-left": 61743,
     "flip-right": 61744,
-    "flip-up": 61745
+    "flip-up": 61745,
+    "geolocate": 61746
 }
