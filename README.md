@@ -1,6 +1,6 @@
-# RiskMap Icons
+# @themarshalsgroup/icons
 
-This README outlines the details of collaborating to the RiskMap Icons iconfont.
+This README outlines the details of collaborating.
 
 ## Prerequisites
 
@@ -8,7 +8,6 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
 
 ## Installation
 
@@ -25,3 +24,4 @@ You will need the following things properly installed on your computer.
 ## Further Reading / Useful Links
 
 * [grunt-webfont](https://github.com/sapegin/grunt-webfont/)
+* [yarn](https://yarnpkg.com/)

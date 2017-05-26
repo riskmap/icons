@@ -1,19 +1,30 @@
 {
-  "name": "riskmap-icons",
-  "private": false,
-  "version": "1.0.1",
-  "description": "Iconfont for RiskMap",
-  "license": "MIT",
-  "homepage": "http://riskmap.com",
-  "author": "Will Viles <will@vil.es>",
+  "name": "@themarshalsgroup/icons",
+  "version": "1.0.2",
+  "description": "Iconfont for The Marshals Group projects",
+  "dependencies": {},
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-webfont": "^1.4.0"
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-webfont": "^1.6.0"
   },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themarshalsgroup/riskmap-icons.git"
-  }
+    "url": "git+https://github.com/themarshalsgroup/icons.git"
+  },
+  "keywords": [
+    "iconfont",
+    "icons"
+  ],
+  "author": "Will Viles <will@vil.es>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themarshalsgroup/icons/issues"
+  },
+  "homepage": "https://github.com/themarshalsgroup/icons#readme",
+  "files": [
+    "dist"
+  ]
 }
