@@ -9,7 +9,11 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-webfont": "^1.6.0"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "grunt build",
+    "server": "grunt server",
+    "prepublish": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/themarshalsgroup/icons.git"

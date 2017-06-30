@@ -12,8 +12,8 @@ module.exports = function(grunt) {
 
   // Iconfonts
 
-  var iconfontName = 'riskmapicons',
-      prefix = 'ri',
+  var iconfontName = 'themarshalsgroupicons',
+      prefix = 'tmgi',
       pathFromStyles = './',
       codepointsFile = './src/map.js';
 
@@ -47,12 +47,12 @@ module.exports = function(grunt) {
   };
 
   // Register individual tasks
-  grunt.registerTask('icons', [ 'webfont:icons' ]);
+  grunt.registerTask('build', [ 'webfont:icons' ]);
   grunt.registerTask('watch', [ 'watch' ]);
 
   // Register build task
-  grunt.registerTask('build', [
-    'icons', 'watch'
+  grunt.registerTask('server', [
+    'build', 'watch'
   ]);
 
   // Initialize configuration
