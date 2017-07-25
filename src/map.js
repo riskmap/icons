@@ -48,5 +48,8 @@
     "flip-left": 61743,
     "flip-right": 61744,
     "flip-up": 61745,
-    "geolocate": 61746
+    "geolocate": 61746,
+    "eye": 61747,
+    "attachment": 61748,
+    "text": 61749
 }
