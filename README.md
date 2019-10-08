@@ -1,4 +1,4 @@
-# @themarshalsgroup/icons
+# @riskmap/icons
 
 This README outlines the details of collaborating.
 
