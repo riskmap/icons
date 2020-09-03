@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
   // Iconfonts
 
-  var iconfontName = 'themarshalsgroupicons',
+  var iconfontName = 'riskmapicons',
       prefix = 'tmgi',
       pathFromStyles = './',
       codepointsFile = './src/map.js';
