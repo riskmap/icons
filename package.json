@@ -1,7 +1,7 @@
 {
-  "name": "@themarshalsgroup/icons",
-  "version": "1.1.0",
-  "description": "Iconfont for The Marshals Group projects",
+  "name": "@riskmap/icons",
+  "version": "1.1.1",
+  "description": "Iconfont for RiskMap",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themarshalsgroup/icons.git"
+    "url": "git+https://github.com/riskmap/icons.git"
   },
   "keywords": [
     "iconfont",
@@ -25,9 +25,9 @@
   "author": "Will Viles <will@vil.es>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/themarshalsgroup/icons/issues"
+    "url": "https://github.com/riskmap/icons/issues"
   },
-  "homepage": "https://github.com/themarshalsgroup/icons#readme",
+  "homepage": "https://github.com/riskmap/icons#readme",
   "files": [
     "dist"
   ]
