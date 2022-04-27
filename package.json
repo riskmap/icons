@@ -4,7 +4,7 @@
   "description": "Iconfont for RiskMap",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.2",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-webfont": "^1.6.0"
